@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div> 
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Project</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                </ul>
+            </div>   
+            
+            <div class="login-button">
+                <button><a href="#">Login</a></button>
+            </div>
+            
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="images/menu.svg" alt=""></button>
+            </div>
+
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Project</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            </ul>
+            
+            <div class="login-button">
+                <button><a href="#">Login</a></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="container">
+            <span id="message"></span>
+            <div class="form">
+                <h3>Address</h3>
+                <div class="form-input">
+                    <input type="text" placeholder="CEP" id="cep">
+                    <input type="text" placeholder="Address" id="address">
+                    <input type="text" placeholder="Neighborhood" id="neighborhood">
+                    <input type="text" placeholder="City" id="city">
+                </div>
+                <div class="form-button">
+                    <button>Search</button>
+                </div>
+                
+            </div>    
+        </div>
+    </section>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
